@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body class="reg-body">
+
+    <header class="header">
+
+        <div class="logo-con">
+            <img src="logo2.png" alt="logo">
+         </div>
+
+        <div class="nav-con">
+
+        <nav class="nav-list">
+            <ul>
+                <li><a href="index.html" class="item">Home</a></li>
+                <li><a href="#" class="item">Artist</a></li>
+                <li><a href="#" class="item">Music</a></li>
+                <li><a href="reg.html" class="item" style="color: orange;">Register Now</a></li>
+            </ul>
+        </nav>
+
+    </div> 
+
+    </header>
+
+<div class="form-page">
+
+    <div class="form-con">
+
+        <form action="/action_page.php" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+            <br>
+
+            <h1> <center>Registration Form</center></h1>
+            <br>
+            <br>
+           
+            <center>
+            First Name: <br>
+            <label for="firstname"></label>
+            <input class="firstline" type="text" id="firstname" name="firstname" value="Enter First Name" onfocus="if(this.value == 'Enter First Name'){this.value = '';}"  required="must be filled out">
+            </center>
+            
+            <br>
+            
+            <center>
+            Last Name: <br>
+            <label for="lastname"></label>
+            <input class="firstline" type="text" id="lastname" name="lastname" value="Enter Last Name" onfocus="if(this.value == 'Enter Last Name'){this.value = '';}" required="must be filled out">
+            </center>
+            <br>
+            
+            <center>
+            Age: <br>
+            <label for="age"></label>
+            <input class="firstline" type="number" id="age" name="age" value="Enter Age" required="must be filled out"> 
+            </center>
+            
+            <br>
+
+            <center>
+            Birthdate: <br>
+            <label for="datemax"></label>
+            <input class="bday" type="date" id="datemax" name="datemax" min="1950" max="today">
+            </center>
+
+            <br>
+
+            <center>
+            Complete Address <br>
+            <label for="address"></label>
+            <input  class="address" type="text" id="adress" name="adress" value="House #, Village, Postal Code" onfocus="if(this.value == 'House #, Village, Postal Code'){this.value = '';}" value="House #, Village, Postal Code " required="must be filled out">
+            </center>
+
+            <br>
+            <br>
+            
+            <center>
+            Gender <br>
+            <label for="gender"></label>
+            <input type="radio"  name="gender" value="male"> <a style="font-size: 15px;">Male</a>
+            <input type="radio"  name="gender" value="female"><a style="font-size: 15px;">Female</a>
+            <input type="radio"  name="gender" value="rather"><a style="font-size: 15px;">Rather Not Say</a>
+            </center>
+
+            <br>
+            <br>    
+
+            <center>
+            Email: <br>
+            <label for="lastname"></label>
+            <input class="e-mail" type="eamil" id="email" name="email" value="Enter Email" onfocus="if(this.value == 'Enter Email'){this.value = '';}" required="must be filled out">
+            </center>
+
+
+            <br>
+
+            <center>
+            Phone Number: <br>
+            <label for="phone"></label>
+            <input class="phone" type="tel" id="phone" name="phone" value="Enter Phone Number" onfocus="if(this.value == 'Enter Phone Number'){this.value = '';}" required="must be filled out">
+            </center>
+
+
+            <br>
+            <center>
+            Where did you learn about us? <br>
+            <label for="platform"></label>
+            <input class="platform" list="platforms" name="platform" id="platform" required="must be filled out">
+                <datalist id="platforms">
+                        <option value="Facebook">
+                        <option value="Friend">
+                        <option value="Ads">
+                        <option value="Google">
+                        <option value="Youtube">
+                </datalist>
+            </center>    
+
+                <br>
+
+            <center>    
+                Current Job: <br>
+                <label for="firstname"></label>
+            <input  class="job" type="text" id="job" name="job" value="Enter Current Job" onfocus="if(this.value == 'Enter Current Job'){this.value = '';}" >
+            <center> 
+
+            <br>
+            <br>
+
+            <center>
+            <input type="checkbox" id="agreed" name="agreed" value="agreed">
+                <label for="agreed" style="font-size: 13px;"> By checking this box, I confirm that I agree to the terms and agreement.</label>
+            </center>
+
+
+            <br>
+            <br>
+
+            <center>
+            <input class="reg-btn" type="submit" required="must be filled out">
+            </center>
+            
+
+        
+          </form> 
+
+
+
+      
+    </div>
+
+
+
+ </div>
+
+
+    
+</body>
+</html>

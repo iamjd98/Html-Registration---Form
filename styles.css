@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.home-body {    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)) ,url('bg1.jpg');
+}
+
+.reg-body {    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('bg1.jpg');
+}
+
+.header {
+    height: 60px;
+}
+
+.logo-con {
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+
+.nav-con {
+    float: right;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.nav-con ul {
+     display: flex;
+    font-size: 20px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.item:hover {
+    background-color: rgba(255, 255, 255, 0.363);
+    transition: .4s;
+}
+
+
+a:active {
+    color: rgb(255, 154, 40);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.offer {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    font-size: 25px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.offer-info {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    font-size: 25px;
+    width: 100%;
+    height: 100px;
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.btn-con {
+
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: orange;
+    height: 70px;
+    width: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+button {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Registration Form*/
+
+.form-page {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-con {
+    color: black;
+    background: linear-gradient(90deg, rgba(255,201,0,0.3113620448179272) 0%, rgba(209,209,209,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    width: 450px;
+    height: 80%;
+    margin-top: 610px;
+    padding-bottom: 570px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstline {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.bday {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.address {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.e-mail {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.phone {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.platform {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.job {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.reg-btn {
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.reg-btn:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+}
